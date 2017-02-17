@@ -1,4 +1,4 @@
-# ESim: ESim: Meta-Path Guided Embedding for Similarity Search in Large-Scale Heterogeneous Information Networks
+# ESim: Meta-Path Guided Embedding for Similarity Search in Large-Scale Heterogeneous Information Networks
 
 ## Publications
 

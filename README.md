@@ -61,6 +61,22 @@ apvpa 0.7
 ...
 ```
 
+## Example Output
+Below is the example output on the DBLP dataset with the query as "Jiawei Han" and the meta-path as "apvpa".
+```
+------------------------------------
+Xifeng_Yan		0.931779
+Ramin_Afshar	0.930142
+Zhenhui_Li		0.930056
+Tianyi_Wu		0.923093
+Cindy_Xide_Lin	0.923068
+Yiwen_Yin		0.919200
+Xiaolei_Li		0.918408
+Petre_Tzvetkov	0.917137
+Chinying_Chaou	0.915410
+Yizhou_Sun		0.914187
+```
+
 ## Contact: 
 If you have any questions about the codes and data, please feel free to contact us.
 ```

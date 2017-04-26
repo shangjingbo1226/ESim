@@ -155,7 +155,7 @@ void line_node::init_hin(char *file_name)
 
 void line_node::output(char *file_name, int binary)
 {
-    int output_size = 0;
+    /*int output_size = 0;
     for (int k = 0; k != node_size; k++) if (node[k].type == 'a')
         output_size++;
     
@@ -170,10 +170,10 @@ void line_node::output(char *file_name, int binary)
         else for (int b = 0; b != vector_size; b++) fprintf(fo, "%lf ", _vec[a * vector_size + b]);
         fprintf(fo, "\n");
     }
-    fclose(fo);
+    fclose(fo);*/
     
     
-    /*FILE *fo = fopen(file_name, "wb");
+    FILE *fo = fopen(file_name, "wb");
     fprintf(fo, "%d %d\n", node_size, vector_size);
     for (int a = 0; a != node_size; a++)
     {
@@ -182,7 +182,7 @@ void line_node::output(char *file_name, int binary)
         else for (int b = 0; b != vector_size; b++) fprintf(fo, "%lf ", _vec[a * vector_size + b]);
         fprintf(fo, "\n");
     }
-    fclose(fo);*/
+    fclose(fo);
 }
 
 line_link::line_link()

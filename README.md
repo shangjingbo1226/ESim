@@ -62,7 +62,7 @@ apvpa 0.7
 ```
 
 ## Example Output
-Below is the example output on the DBLP dataset with the query as "Jiawei Han" and the meta-path as "apvpa".
+Below is the example output on the DBLP dataset with the query as "Jiawei_Han" and the meta-path as "apvpa".
 ```
 ------------------------------------
 Xifeng_Yan		0.931779

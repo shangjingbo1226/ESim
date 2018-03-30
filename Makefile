@@ -6,7 +6,7 @@ LIBS = -L/usr/local/lib
 
 BIN = bin/esim bin/search
 
-all: bin $(BIN)
+all: eigen-3.3.3 bin $(BIN)
 
 eigen-3.3.3:
 	curl https://bitbucket.org/eigen/eigen/get/3.3.3.tar.bz2  --output eigen-3.3.3.tar.gz

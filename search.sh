@@ -1,5 +1,5 @@
 #!/bin/sh
 
-embedding_file=vec.txt
+embedding_file=./results/vec.dat
 
-./code/search ${embedding_file}
+./bin/search ${embedding_file}

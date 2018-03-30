@@ -12,8 +12,8 @@ if [ ${node_file} == "dblp_data/node.dat" ] && [ ! -e dblp_data/node.dat ]; then
     mv data_dblp dblp_data
 fi
 
-#make
-#mkdir -p results
+make
+mkdir -p results
 
 size=50 # embedding dimension
 negative=5 # number of negative samples
